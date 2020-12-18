@@ -12,7 +12,37 @@ body {
 		"Lucida Sans", Arial, sans-serif;
 }
 
+.square {
+	border: 1px solid black;
+	outline: none;
+	background-color: lightblue;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: large;
+}
+
+.board {
+	margin: 0 auto;
+	margin-top: 50px;
+	border: 5px solid navy;
+	border-radius: 3px;
+	width: 200px;
+	height: 200px;
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.stats {
+	margin: 20px auto;
+	width: 200px;
+}
+
+.stats > button {
+	padding: 5px;
+	margin: 10px;
+}
+
 .title {
-	padding: 50px;
-	margin: 20px;
+	margin-top: 50px;
+	font-size: 25px;
 }
